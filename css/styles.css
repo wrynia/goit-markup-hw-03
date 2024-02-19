@@ -11,6 +11,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 .logo-second {
   color: #2e2f42;
