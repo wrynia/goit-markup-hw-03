@@ -168,3 +168,6 @@ body {
 .portfolio {
   margin-bottom: 72px;
 }
+img {
+  display: block;
+}
