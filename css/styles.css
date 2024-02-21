@@ -113,6 +113,7 @@ body {
   height: 56px;
   min-width: 169px;
   border: none;
+  display: block;
 }
 .button:focus {
   background-color: #404bbf;
@@ -133,6 +134,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-third {
   background-color: #f4f4fd;
@@ -172,10 +174,12 @@ body {
   outline: 2px solid red;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
 .navigation {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .portfolio {
