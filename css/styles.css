@@ -15,15 +15,12 @@ body {
   margin-bottom: 16px;
   margin-right: 76px;
   text-decoration: none;
-  display: inline-block;
 }
 .logo-second {
   color: #2e2f42;
   margin-right: 76px;
 }
 .logo-third {
-  display: inline-block;
-
   color: #f4f4fd;
 }
 .link-classes {
@@ -31,6 +28,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 40px;
 }
 .link-classes:hover {
   color: #404bbf;
@@ -44,6 +42,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-right: 40px;
 }
 .mail-tel:hover {
   color: #404bbf;
@@ -190,7 +189,6 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .portfolio {
