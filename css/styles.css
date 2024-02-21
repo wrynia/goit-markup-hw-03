@@ -56,10 +56,10 @@ body {
   padding: 100px 0;
 }
 .attention {
-  line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02em;
-  max-width: 264px;
+  display: block;
+  flex-wrap: wrap;
+  width: 264px;
 }
 .section-fourth {
   font-size: 36px;
@@ -94,6 +94,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  font-weight: 700;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -158,12 +162,9 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  display: flex;
   width: 1158px;
   outline: 2px solid red;
-  justify-content: space-between;
-
-  flex-wrap: wrap;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .navigation {
