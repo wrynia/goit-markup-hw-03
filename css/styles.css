@@ -15,12 +15,15 @@ body {
   margin-bottom: 16px;
   margin-right: 76px;
   text-decoration: none;
+  display: inline-block;
 }
 .logo-second {
   color: #2e2f42;
   margin-right: 76px;
 }
 .logo-third {
+  display: inline-block;
+
   color: #f4f4fd;
 }
 .link-classes {
