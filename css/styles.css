@@ -11,9 +11,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-second {
   color: #2e2f42;
@@ -52,11 +51,13 @@ body {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .attention {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .section-fourth {
   font-size: 36px;
@@ -65,6 +66,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .headline {
   font-weight: 500;
@@ -153,4 +156,15 @@ body {
 }
 .header-container {
   display: flex;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.container-footer {
+}
+.container-section-fourth {
+}
+.portfolio {
+  margin-bottom: 72px;
 }
