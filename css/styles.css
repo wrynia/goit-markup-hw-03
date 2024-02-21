@@ -15,10 +15,12 @@ body {
   margin-bottom: 16px;
   margin-right: 76px;
   text-decoration: none;
+  padding: 24px 0;
 }
 .logo-second {
   color: #2e2f42;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-third {
   color: #f4f4fd;
