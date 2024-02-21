@@ -13,9 +13,11 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 .logo-second {
   color: #2e2f42;
+  margin-right: 76px;
 }
 .logo-third {
   color: #f4f4fd;
@@ -84,6 +86,7 @@ body {
 }
 .section-first {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .effective {
   font-size: 56px;
@@ -154,20 +157,55 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
+.container {
   display: flex;
+  width: 1158px;
+  outline: 2px solid red;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
-.nav-container {
+.navigation {
   display: flex;
   align-items: center;
 }
-.container-footer {
-}
-.container-section-fourth {
-}
+
 .portfolio {
   margin-bottom: 72px;
 }
 img {
   display: block;
+}
+.left-navi-list {
+  display: flex;
+  list-style: none;
+  padding: 24px 0;
+  gap: 40px;
+}
+
+.right-navi-list {
+  display: flex;
+  list-style: none;
+  padding: 24px 0;
+  gap: 40px;
+}
+.goals-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.goals-item {
+  width: calc((100% - 72px) / 4);
+}
+.person-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  width: 1158px;
 }
