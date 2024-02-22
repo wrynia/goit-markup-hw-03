@@ -33,6 +33,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: 40px;
+  padding: 24px 0;
 }
 .link-classes:hover {
   color: #404bbf;
