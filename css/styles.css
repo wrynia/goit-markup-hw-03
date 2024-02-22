@@ -249,9 +249,7 @@ img {
 .section-second {
   padding: 120px 0;
 }
-.visually-hidden {
-  display: none;
-}
+
 .container-crew-name {
   background-color: #ffffff;
   text-align: center;
@@ -263,4 +261,8 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+}
+.visually-hidden {
+  display: none;
+  overflow: hidden;
 }
