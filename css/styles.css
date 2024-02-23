@@ -61,7 +61,6 @@ body {
 }
 .footer {
   background-color: #2e2f42;
-  height: 312px;
   padding: 100px 0;
 }
 .attention {
@@ -91,7 +90,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
+  margin: 8px;
 }
 .section-first {
   background-color: #2e2f42;
